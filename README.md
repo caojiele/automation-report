@@ -19,10 +19,10 @@
 ![show_8](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_8.png)
 
 ## 二、注意事项
-1、读取的数据源中，表头中“NO,name,number”所对应的数据不能有空缺；
-2、Data中的数据源文件名称不能重名；
-### 3、test data文件夹中的数据只能用于本项目的测试数据，不能用于其他任何商业途径！！！
-### 4、templates、TP53_pdf_templates两个文件夹中报告模板只能用于本项目的报告模板，不能用于其他任何商业途径！！！
+* 1、读取的数据源中，表头中“NO,name,number”所对应的数据不能有空缺；
+* 2、Data中的数据源文件名称不能重名；
+* ### 3、test data文件夹中的数据只能用于本项目的测试数据，不能用于其他任何商业途径！！！
+* ### 4、templates、TP53_pdf_templates两个文件夹中报告模板只能用于本项目的报告模板，不能用于其他任何商业途径！！！
 ### 特此申明，概不负责！！！
 
 ## **三、关于作者**
