@@ -33,7 +33,8 @@
 ## **三、关于作者**
 #### 微信公众号：
 ![微信公众号](https://raw.githubusercontent.com/caojiele/resume/master/img-folder/qrcode.jpg)
-#### 简书链接：[简书个人主页](https://www.jianshu.com/u/faa01fa59ea3)
+#### SF：[segmentfault](https://segmentfault.com/u/xiaomage_5c10d17d26987)
+#### 简书：[简书个人主页](https://www.jianshu.com/u/faa01fa59ea3)
 
 ## **四、参考资料**
 * [自动化生成报告程序](https://www.jianshu.com/p/86d4ef73ca72)
