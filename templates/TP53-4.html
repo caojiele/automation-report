@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title></title>
+<link rel="stylesheet" type="text/css" href="TP53-4.css">
+
+</head>
+<body>
+<p id="page">- &nbsp;4&nbsp; -</p>
+<div class="youduiqi">
+<p style="text-align: left;"><img src="picture_2.png" width="102" height="46"  /></p>
+<p style="color: #bc4e46;font-weight:bold;font-size:16px"><span id="OLE_LINK24" class="anchor"><span id="OLE_LINK25" class="anchor"></span></span>检测对照表</p>
+<table cellspacing="0" class="first">
+<thead>
+<tr class="header" style="color:#fff;background: #AE5651;height:40px">
+<th style="width:144px;"><span id="OLE_LINK26" class="anchor"><span id="OLE_LINK27" class="anchor"></span></span>疾病</th>
+<th>TP53</th>
+<th>综合抑癌值</th>
+<th>抑癌能力</th>
+<th>结果解读</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td rowspan="3" style="font-weight:bold"><span id="OLE_LINK18" class="anchor"><span id="OLE_LINK19" class="anchor"></span></span>肺癌、胃癌、肝癌、食管癌、甲状腺癌</td>
+<td>GG</td>
+<td>+1</td>
+<td>抑癌能力高于人群平均水平</td>
+<td><img src="picture_4.png"></td>
+</tr>
+<tr class="even">
+<td>GC</td>
+<td>0</td>
+<td>抑癌能力与人群平均水平相同</td>
+<td><img src="picture_5.png"></td>
+</tr>
+<tr class="odd">
+<td>CC</td>
+<td>-1</td>
+<td>抑癌能力低于人群平均水平</td>
+<td><img src="picture_6.png"></td>
+</tr>
+</tbody>
+</table>
+<p>综合<span id="OLE_LINK2" class="anchor"><span id="OLE_LINK1" class="anchor"></span></span>抑癌值：指在<span id="OLE_LINK5" class="anchor"></span>人群平均抑癌能力的参照值设为0时，反映个体抑癌能力大小的数值。通过抑癌值的大小反映您和人群的平均抑癌能力之间的比较。</p>
+<p style="color: #bc4e46;font-weight:bold;font-size:16px">检测数据</p>
+<p>对于您携带与人体抑癌能力密切相关基因位点的信息，本次检测的分析结果如下：</p>
+<table  cellspacing="0" class="second">
+<thead>
+<tr class="header">
+<th>位点编号</th>
+<th>基因</th>
+<th>参考位点a</th>
+<th>您的位点</th>
+<th>人群频率b</th>
+</tr>
+</thead>
+<tbody>
+        {% if patient_info.result == "CC" %}
+                <tr class="odd">
+                    <td><span id="OLE_LINK3" class="anchor"><span id="OLE_LINK8" class="anchor"><span id="OLE_LINK4" class="anchor"><span id="OLE_LINK15" class="anchor"></span></span></span></span>rs1042522</td>
+                    <td>TP53</td>
+                    <td>GG</td>
+                    <td>CC</td>
+                    <td>17.3%</td>
+                </tr>
+                {% elif patient_info.result == "GC" %}
+                <tr class="odd">
+                    <td><span id="OLE_LINK3" class="anchor"><span id="OLE_LINK8" class="anchor"><span id="OLE_LINK4" class="anchor"><span id="OLE_LINK15" class="anchor"></span></span></span></span>rs1042522</td>
+                    <td>TP53</td>
+                    <td>GG</td>
+                    <td>GC</td>
+                    <td>48.2%</td>
+                </tr>
+                {% elif patient_info.result == "GG" %}
+                <tr class="odd">
+                    <td><span id="OLE_LINK3" class="anchor"><span id="OLE_LINK8" class="anchor"><span id="OLE_LINK4" class="anchor"><span id="OLE_LINK15" class="anchor"></span></span></span></span>rs1042522</td>
+                    <td>TP53</td>
+                    <td>GG</td>
+                    <td>GG</td>
+                    <td>34.5%</td>
+                </tr>
+                {% endif %}
+</tbody>
+</table>
+<p>参考位点a：表示该位点在人参考基因组GRCh37.p13上的基因型（方向为TP53正义链）</p>
+<p>人群频率b：表示您的位点在千人基因组里中国人群中所占的比例</p>
+<p>http://uswest.ensembl.org</p>
+<p><img src="picture_3.png" alt="IMG_256" width="100%" /></p>
+<div style="position:absolute;bottom:-25%;">
+<div class="stl_01" style="float:left"><span class="stl_19 stl_20 stl_09"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南舜喜再生医学工程有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+<div class="stl_01" style="float:left"><span class="stl_19 stl_20 stl_09"> 电话：</span><span class="stl_21 stl_20 stl_09">400-6189-653 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+<div class="stl_01" style="float:left"><span class="stl_19 stl_20 stl_09"> 网址：http://www.shunxirm.com &nbsp;&nbsp;</span></div>
+</div>
+</body>
+</html>

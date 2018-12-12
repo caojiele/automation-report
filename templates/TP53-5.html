@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="TP53-5.css">
+</head>
+<body>
+    <div class="juzhong">
+        <p id="page">- &nbsp;5&nbsp; -</p>
+        <p style="text-align: left;"><img src="picture_2.png" width="80" height="36"  /></p>
+        <p style="color: #bc4e46;font-weight:bold">结果解读</p>
+        <table cellspacing="0" class="first">
+            <thead>
+                <tr class="header" style="color:#fff;background: #AE5651;height:40px">
+                    <th style="width:144px;">疾病</th>
+                    <th>TP53</th>
+                    <th>综合抑癌值</th>
+                    <th>抑癌能力</th>
+                    <th>结果解读</th>
+                </tr>
+            </thead>
+            <tbody>
+
+                {% if patient_info.result == 'GG' %}
+                <tr class="odd">
+                    <td style="font-weight:bold">肺癌、胃癌、肝癌、食管癌、甲状腺癌</td>
+                    <td>GG</td>
+                    <td>+1</td>
+                    <td>抑癌能力高于人群平均水平</td>
+                    <td><img src="picture_4.png"></td>
+                </tr>
+                {% elif patient_info.result == 'GC' %}
+                <tr class="odd">
+                    <td style="font-weight:bold">肺癌、胃癌、肝癌、食管癌、甲状腺癌</td>
+                    <td>GC</td>
+                    <td>0</td>
+                    <td>抑癌能力等于人群平均水平</td>
+                    <td><img src="picture_5.png"></td>
+                </tr>
+                {% elif patient_info.result == 'CC' %}
+                <tr class="odd">
+                    <td style="font-weight:bold">肺癌、胃癌、肝癌、食管癌、甲状腺癌</td>
+                    <td>CC</td>
+                    <td>-1</td>
+                    <td>抑癌能力低于人群平均水平</td>
+                    <td><img src="picture_6.png"></td>
+                </tr>
+                {% endif %}
+            </tbody>
+        </table>
+        {% if patient_info.result == 'GG' %}
+        <p style="text-indent:2em">检测结果显示，您在 TP53 基因 rs1042522 位置基因型为<span id="OLE_LINK16" class="anchor"><span id="OLE_LINK17" class="anchor"></span></span>GG，对肺癌、胃癌、食管癌、肝癌、甲状腺癌的抑癌能力高于人群的平均水平。</p>
+        {% elif patient_info.result == 'GC' %}
+        <p style="text-indent:2em">检测结果显示，您在 TP53 基因 rs1042522 位置基因型为<span id="OLE_LINK16" class="anchor"><span id="OLE_LINK17" class="anchor"></span></span>GC，对肺癌、胃癌、食管癌、肝癌、甲状腺癌的抑癌能力等于人群的平均水平。</p>
+        {% elif patient_info.result == "CC" %}
+        <p style="text-indent:2em">检测结果显示，您在 TP53 基因 rs1042522 位置基因型为<span id="OLE_LINK16" class="anchor"><span id="OLE_LINK17" class="anchor"></span></span>CC，对肺癌、胃癌、食管癌、肝癌、甲状腺癌的抑癌能力低于人群的平均水平。</p>
+        {% endif %}
+        <p style="color: #bc4e46;font-weight:bold"><span id="OLE_LINK7" class="anchor"><span id="OLE_LINK6" class="anchor"></span></span>健康贴士</p>
+        <p style="text-indent:2em">现代医学研究成果表明人体的健康状况是环境因素和遗传因素（基因）共同作用的结果。因此在关注遗传因素对上述几种高发肿瘤影响的同时，不能忽视环境因素的作用。个体主动避免生活环境中的不良因素、培养健康的生活习惯等措施，对于健康是非常重要的。根据您的健康调查信息，并结合《欧洲防癌准则（2014）》（国际癌症研究组织欧洲委员会）和《中国癌症预防与控制规划纲要（2004-2010）》（中华人民共和国卫生部），建议您在生活中注意以下几点：</p>
+        <ul style="color: #bc4e46">
+            <li><p>遵循低脂肪、高蛋白、高纤维的饮食原则，多食用新鲜水果和蔬菜，补充天然的维生素和矿物质，多食用谷类和豆制品，少食用动物脂肪和内脏，肉类优先选择鱼肉，合理饮食有助于降低癌症发生风险；</p></li>
+            <li><p>尽量避免吸烟和吸入二手烟，远离烟草对健康的危害，吸烟会增加多种癌症的风险；</p></li>
+            <li><p>尽量避免饮酒，远离酒精对健康的危害；</p></li>
+            <li><p>尽量避免在雾霾或扬尘天气时外出，若需外出，可佩戴相应的防尘口罩；</p></li>
+            <li><p>培养良好的作息习惯，不宜熬夜或过劳，保证充足的睡眠；</p></li>
+            <li><p>适当锻炼，每周进行不低于5次的有氧运动，每次锻炼时间不少于30分钟，增强自身免疫力；</p></li>
+            <li><p>日常生活中保持积极乐观、平和的心态；</p></li>
+            <li><p>请您定期到医院进行相关部位的检查，定期的超生和CT等健康体检将有助于及早发现病兆；</p></li>
+            <br/>
+            <p id="pic"><img src="picture_7.png" width="100%" /></p>
+            <div style="position:absolute;bottom:-25%;">
+            <div class="stl_01" style="float:left"><span class="stl_19 stl_20 stl_09"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;云南舜喜再生医学工程有限公司 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+            <div class="stl_01" style="float:left"><span class="stl_19 stl_20 stl_09"> 电话：</span><span class="stl_21 stl_20 stl_09">400-6189-653 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
+            <div class="stl_01" style="float:left"><span class="stl_19 stl_20 stl_09"> 网址：http://www.shunxirm.com &nbsp;&nbsp;</span></div>
+        </div>
+    </body>
+    </html>
