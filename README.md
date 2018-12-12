@@ -24,3 +24,9 @@
 ### 3、test data文件夹中的数据只能用于本项目的测试数据，不能用于其他任何商业途径！！！
 ### 4、templates、TP53_pdf_templates两个文件夹中报告模板只能用于本项目的报告模板，不能用于其他任何商业途径！！！
 ### 特此申明，概不负责
+
+## **三、关于作者**
+#### 微信公众号：
+![微信公众号](https://raw.githubusercontent.com/caojiele/resume/master/img-folder/qrcode.jpg)
+#### 简书链接：[简书个人主页](https://www.jianshu.com/u/faa01fa59ea3)
+## **7、参考资料**
