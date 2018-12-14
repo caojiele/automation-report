@@ -22,6 +22,8 @@
 ![show_6](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_6.png)
 ![show_7](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_7.png)
 ![show_8](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_8.png)
+### 输入以上命令后程序执行：
+![输入以上命令后程序执行](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/Dynamic_figure1.gif)
 
 ## **二、注意事项**
 * ##### 1、读取的数据源中，表头中“NO,name,number”所对应的数据不能有空缺；
