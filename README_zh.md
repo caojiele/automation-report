@@ -10,45 +10,45 @@ Automation report是一款可以解决很多行业领域中设涉及到报告生
 
 1、将数据源转换完**csv**文件后（文件-另存为-文件类型（CSV(逗号分隔）（*.csv）-保存），用编程专用编辑器将编码确认为UTF-8（以小黑记事本为例，文件-编码-UTF-8-保存），将csv文件放入data文件夹中；
 
-![show_1](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_1.png)
+![show_1](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289304927-cd6366de-c156-4791-9ae8-14ec07acbf9e.png)
 
 2、`cd <program path>`  
 
 进入报告程序路径 （<program path>程序路径，如：/home/jlcao/TP53/report）；
   
-![show_2](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_2.png)
+![show_2](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289310105-18cb3818-dc51-4dad-93eb-48aee6c8f725.png)
 
 3、`virtualenv -p <path> <文件夹名>`  
 
 (如：/usr/local/bin/python3.5 report）在当前目录创建report文件夹，该文件夹即为创建的虚拟环境。只需创建一次；
   
-![show_3](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_3.png)
+![show_3](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289314650-7665ada7-dabf-4134-a136-6495142ed617.png)
 
 4、`source report/bin/activate`      
 
 激活虚拟环境（virtualenv）；
 
-![show_4](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_4.png)
+![show_4](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289320059-a0fc4d29-3c8f-427b-8668-bd39704e9e6e.png)
 
 5、`pip install -r requirements.txt`  
 
 用pip安装依赖环境，运行requirements.txt，只需运行一次；
 
-![show_5](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_5.png)
+![show_5](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289328528-52c41177-3dac-4dd4-a3b4-5467d1b3e685.png)
 
 6、`python gen_report.py --result-dir results data/xxx.csv` 
 
 （xxx.csv为data文件夹数据文件，如：TP53-10个口腔拭子交付报告-20170710.csv） 执行此命令，即可在results文件夹里生成xxx.csv中指定的患者所有报告，报告保存在独立文件夹中，该文件夹名与读取的xxx.csv数据源名对应。
 
-![show_6](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_6.png)
+![show_6](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289332975-c5ad43d0-8465-45e4-854b-e4339c7e9856.png)
 
-![show_7](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_7.png)
+![show_7](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289337742-61fe2ec5-2392-481b-bda8-10a15e68cfad.png)
 
-![show_8](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_8.png)
+![show_8](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289346397-ea3420b5-75c7-403d-aaaa-3b31c33851c6.png)
 
 ### 输入以上命令后程序执行：
 
-![输入以上命令后程序执行](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/Dynamic_figure1.gif)
+![输入以上命令后程序执行](https://cdn.nlark.com/yuque/0/2019/gif/338441/1563290227027-bddb1241-f498-4750-aa54-e10778199fd6.gif)
 
 ## **二、注意事项**
 
