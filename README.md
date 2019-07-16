@@ -10,45 +10,45 @@ The project running environment is suitable for all major operating systems, the
 
 1、To convert data source after the `csv` file (file - save as file type (csv (comma separated) (*.csv) - save), with special programming code editor will confirm for utf-8 (in the case of the notebook, file - coding - utf-8 - save), csv file to be included in the data folder;
 
-![show_1](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_1.png)
+![show_1](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289304927-cd6366de-c156-4791-9ae8-14ec07acbf9e.png)
 
 2、`cd <program path>`  
 
 Enter the report file path (< program path > program path, such as：/home/jlcao/TP53/report）；
   
-![show_2](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_2.png)
+![show_2](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289310105-18cb3818-dc51-4dad-93eb-48aee6c8f725.png)
 
 3、`virtualenv -p <path> <file name>`  
 
 (such as：/usr/local/bin/python3.5 report）In the current directory to create the report folder, the folder is created in the virtual environment.Just create once;
   
-![show_3](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_3.png)
+![show_3](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289314650-7665ada7-dabf-4134-a136-6495142ed617.png)
 
 4、`source report/bin/activate`      
 
 Activate the virtual environment（virtualenv）；
 
-![show_4](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_4.png)
+![show_4](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289320059-a0fc4d29-3c8f-427b-8668-bd39704e9e6e.png)
 
 5、`pip install -r requirements.txt`  
 
 With `pip` installation depends on the environment, operation requirements.txt, just run once;
 
-![show_5](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_5.png)
+![show_5](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289328528-52c41177-3dac-4dd4-a3b4-5467d1b3e685.png)
 
 6、`python gen_report.py --result-dir results data/xxx.csv` 
 
 （xxx.csv data file for the data folder，such as：TP53-10个口腔拭子交付报告-20170710.csv） Executing this command, you can in the results folder to generate xxx.csv specified in the patients with all reports, report is stored in a separate folder, the folder name and read xxx.csv data source name.
 
-![show_6](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_6.png)
+![show_6](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289332975-c5ad43d0-8465-45e4-854b-e4339c7e9856.png)
 
-![show_7](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_7.png)
+![show_7](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289337742-61fe2ec5-2392-481b-bda8-10a15e68cfad.png)
 
-![show_8](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/show_8.png)
+![show_8](https://cdn.nlark.com/yuque/0/2019/png/338441/1563289346397-ea3420b5-75c7-403d-aaaa-3b31c33851c6.png)
 
 ### After input the above command execution：
 
-![show9](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/Dynamic_figure1.gif)
+![show9](https://cdn.nlark.com/yuque/0/2019/gif/338441/1563290227027-bddb1241-f498-4750-aa54-e10778199fd6.gif)
 
 ## **Warning**
 
@@ -79,7 +79,6 @@ More details, please scan qrcode：
   
  ![qrcode](https://cdn.nlark.com/yuque/0/2019/png/338441/1562683998026-42937005-a1e6-43cb-b51e-6aacf2952a56.png)
  
-
 ## **Resources**
 
 * [Report automatic generation program](https://www.jianshu.com/p/86d4ef73ca72)
