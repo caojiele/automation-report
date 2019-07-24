@@ -1,4 +1,4 @@
-# Automation report
+# Automation Report
 
 ### [中文文档](README_zh.md)
 
