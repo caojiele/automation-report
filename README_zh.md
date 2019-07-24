@@ -1,4 +1,4 @@
-# 自动化生成报告(Automation report)
+# 自动化生成报告
 
 ### [英文文档](README.md)
 
