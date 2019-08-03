@@ -48,7 +48,7 @@ Automation report是一款可以解决很多行业领域中设涉及到报告生
 
 ### 输入以上命令后程序执行：
 
-![输入以上命令后程序执行](https://cdn.nlark.com/yuque/0/2019/gif/338441/1563290227027-bddb1241-f498-4750-aa54-e10778199fd6.gif)
+![输入以上命令后程序执行](https://raw.githubusercontent.com/caojiele/Automation-report/master/img_folder/Dynamic_figure1.gif)
 
 ## **二、注意事项**
 
@@ -71,9 +71,9 @@ Hey，我是小码哥，Java 攻城狮，Apache、Alibaba等开源组织贡献�
 
 segmentfault：https://segmentfault.com/u/xiaomage_5c10d17d26987
     
-微信公众号: xiaomage_freestyle
+微信公众号: iamtianxuan
 
- ![微信公众号](https://cdn.nlark.com/yuque/0/2019/jpeg/338441/1562681958344-f9b0d53f-2be5-42d0-bdb6-b043d04fd856.jpeg)
+ ![微信公众号](https://cdn.nlark.com/yuque/0/2019/jpeg/338441/1564802304985-6a45f687-8685-4426-998b-96a5f032f2c9.jpeg)
 
 更多详情，请扫二维码：
 
